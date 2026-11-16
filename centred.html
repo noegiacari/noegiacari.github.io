@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Centred · Noelia Giacari</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html" class="nav-logo">Noelia Giacari</a>
+    <div class="nav-links">
+      <a href="index.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="mailto:ngiacari@gmail.com">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="cs-hero">
+    <div class="cs-hero-text">
+      <span class="tag">Personal project · Product Design · UX/UI · Development</span>
+      <h1>Centred</h1>
+      <p class="cs-note">Working title, launching under a new name.</p>
+      <p class="cs-subtitle">Person-centred planning tools in an app. You answer a few simple questions, one step at a time, and get a clear one-page PDF to share. I designed it in Figma and built it in Flutter.</p>
+    </div>
+    <div class="cs-screens">
+      <img src="images/centred/home.png" alt="Centred home screen listing six planning tools" />
+      <img src="images/centred/about-me-1.png" alt="About Me step 1: name and photo" />
+      <img src="images/centred/about-me-2.png" alt="About Me step 2: choosing strengths from chips" />
+      <img src="images/centred/about-me-4.png" alt="About Me step 4: how to support me" />
+    </div>
+  </header>
+
+  <!-- METADATA -->
+  <section class="cs-meta">
+    <div class="meta-item">
+      <span class="meta-label">Role</span>
+      <span class="meta-value">Product designer and developer</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">Timeline</span>
+      <span class="meta-value">2021 to 2026</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">Tools</span>
+      <span class="meta-value">Figma, Flutter</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">Platform</span>
+      <span class="meta-value">Android phone and tablet</span>
+    </div>
+  </section>
+
+  <main class="cs-content">
+
+    <!-- 01 THE IDEA -->
+    <section class="cs-section">
+      <div class="cs-section-label">
+        <span>01</span>
+        <h2>The Idea</h2>
+      </div>
+      <div class="cs-section-body">
+
+        <div class="cs-block">
+          <h3>Where it started</h3>
+          <p>
+            The idea came from my own work as a person-centred planning facilitator. My
+            colleagues and I kept running into the same problem: there was no good way to share
+            a plan once we'd made it. We drew plans on big sheets of paper, which was fiddly and
+            needed a large wall to work on. But a plan is a working document that can last a
+            year, so a sheet of paper taped to a wall was never going to last. Taking photos
+            didn't solve it either, as each photo only caught part of the plan.
+          </p>
+        </div>
+
+        <div class="cs-block">
+          <h3>The problem</h3>
+          <p>
+            Person-centred planning tools, such as a one-page profile or a relationship circle,
+            help people describe what matters to them and how they want to be supported.
+            They're used across health, education and social care, but mostly on paper and
+            often with a trained facilitator, so making a plan can mean waiting for a session.
+          </p>
+        </div>
+
+        <div class="cs-block">
+          <h3>What I set out to make</h3>
+          <ul>
+            <li>A guided app that a support worker, a family member or the person themselves could use without training</li>
+            <li>One question at a time, in plain language</li>
+            <li>A finished one-page PDF at the end, ready to print or share</li>
+            <li>Nothing stored: these are personal details about people who are often vulnerable</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 02 KEY DECISIONS -->
+    <section class="cs-section">
+      <div class="cs-section-label">
+        <span>02</span>
+        <h2>Key Decisions</h2>
+      </div>
+      <div class="cs-section-body">
+
+        <div class="cs-block">
+          <h3>Plain names for the tools</h3>
+          <p>
+            Many of the original tools have formal names, some owned by other organisations, so I renamed each one
+            to say what it does: About Me, My Direction, Good Day / Bad Day, My People,
+            My Perfect Week and How I communicate.
+          </p>
+        </div>
+
+        <div class="cs-block">
+          <h3>Private by design</h3>
+          <p>
+            There are no accounts and nothing is saved. Answers live only in the app's memory
+            while a tool is open, and the app has no internet access at all. Information only
+            leaves the device when the person chooses to share their PDF. Closing the app always
+            starts a fresh, blank plan.
+          </p>
+        </div>
+
+        <div class="cs-block">
+          <h3>Prototype first</h3>
+          <p>
+            Before designing the real app, I built a quick web prototype with seven tools to try
+            out the step-by-step flow and the PDF at the end.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 03 THE DESIGN -->
+    <section class="cs-section">
+      <div class="cs-section-label">
+        <span>03</span>
+        <h2>The Design</h2>
+      </div>
+      <div class="cs-section-body">
+
+        <div class="cs-block">
+          <h3>One step at a time</h3>
+          <p>
+            Every tool follows the same pattern: a header that says what this part is about, a
+            progress bar, one question, and Back and Next at the bottom. Where it helps, answers
+            are chips you can tap (Kind, Brave, Patient...) rather than a blank box, with
+            "Add item" for anything else. A calm purple, the Ubuntu typeface and large tap areas
+            keep it friendly and easy to use on a phone or a tablet.
+          </p>
+        </div>
+
+        <div class="cs-block">
+          <h3>A page worth printing</h3>
+          <p>
+            The PDF is the real product, so I designed each one as a page in its own right.
+            Before sharing, the person sees the actual page and can go back to amend it.
+          </p>
+          <div class="cs-img-grid">
+            <img src="images/centred/pdf-about-me.png" alt="About Me PDF, a portrait one-page profile" />
+            <img src="images/centred/pdf-how-i-communicate.png" alt="How I communicate PDF, three situation cards" />
+          </div>
+          <img class="cs-img-full-real" src="images/centred/pdf-my-people.png" alt="My People PDF: four coloured quadrants around the person's name" />
+          <p class="img-caption">PDFs for About Me, How I communicate and My People (with made-up example data for "Alex Morgan" and an AI-generated photo)</p>
+        </div>
+
+        <div class="cs-block">
+          <h3>A design system that matches the code</h3>
+          <p>
+            Each Figma component (button, chip, progress bar, question box, person row) has
+            exactly one matching widget in the app, and every colour, size and text style in the
+            code uses the same name as its Figma variable. Changing the design and the code
+            means changing the same thing in two places, not translating between them.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 04 BUILDING IT -->
+    <section class="cs-section">
+      <div class="cs-section-label">
+        <span>04</span>
+        <h2>Building It</h2>
+      </div>
+      <div class="cs-section-body">
+
+        <div class="cs-block">
+          <h3>From Figma to a phone</h3>
+          <p>
+            I designed Centred in Figma and built it in Flutter with the help of an AI coding
+            assistant, which let me turn my designs into a working app myself. I tried every
+            tool on a real phone and tablet before calling it done.
+          </p>
+        </div>
+
+        <div class="cs-block">
+          <h3>Cutting voice input</h3>
+          <p>
+            I added voice input so people could speak their answers instead of typing. On real
+            devices it was unreliable, working on one and not another. Rather than ship
+            something that would let people down, I removed it. Every answer is now typed or
+            tapped.
+          </p>
+        </div>
+
+        <div class="cs-block">
+          <h3>Trying it for real</h3>
+          <p>
+            I took Centred on my tablet to a residence for people with learning and physical
+            disabilities, and made plans with the people who live there and the staff who
+            support them. The app is in English and the session was in Spanish, so I translated
+            the questions as we went and typed their answers in Spanish. They liked it as it was
+            and didn't ask for any changes.
+          </p>
+          <p style="margin-top: 0.75rem;">
+            The feedback that mattered most came from staff: it's quicker than paper. A plan
+            took about an hour on the tablet, where on paper it usually takes half a day.
+            Funding for support hours is stretched, so every bit of time saved on paperwork is
+            time back with the people they support.
+          </p>
+          <p style="margin-top: 0.75rem;">
+            True to the app's design, I kept nothing: the plans belonged to the people who
+            made them, so no PDFs left the session.
+          </p>
+        </div>
+
+        <div class="cs-block">
+          <h3>Where it is now</h3>
+          <div class="results-grid">
+            <div class="result-item">
+              <span class="result-stat">6</span>
+              <span class="result-desc">Planning tools, each with its own one-page PDF</span>
+            </div>
+            <div class="result-item">
+              <span class="result-stat">0</span>
+              <span class="result-desc">Accounts, servers or stored data</span>
+            </div>
+            <div class="result-item">
+              <span class="result-stat">1 hour</span>
+              <span class="result-desc">To make a plan on the tablet, compared with half a day on paper</span>
+            </div>
+            <div class="result-item">
+              <span class="result-stat">v1.0</span>
+              <span class="result-desc">Signed test build, running on a phone and a tablet</span>
+            </div>
+          </div>
+          <p>
+            In that first session I was the one translating and typing, so it showed the tools
+            work with real people, but not yet whether staff can use the app on their own. The
+            next round is staff and the people they support working in pairs, without me
+            helping. I want to find out three things: how much time it actually saves compared
+            with paper, whether people can use it without a trained facilitator, and whether
+            the plan still sounds like the person, rather than like the staff member answering
+            for them.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- CASE STUDY NAVIGATION -->
+  <nav class="cs-nav">
+    <a href="index.html" class="cs-nav-link">← Back to all work</a>
+    <a href="artisancrafts.html" class="cs-nav-link">Next project →</a>
+  </nav>
+
+  <!-- CONTACT CTA -->
+  <section class="cta">
+    <h2>I'd love to hear from you.</h2>
+    <a href="mailto:ngiacari@gmail.com" class="btn">Get in touch</a>
+  </section>
+
+</body>
+</html>

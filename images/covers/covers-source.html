@@ -1,0 +1,60 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html, body { margin: 0; }
+  .cover { width: 1200px; height: 675px; display: none; align-items: center; justify-content: center; gap: 36px; position: relative; overflow: hidden; font-family: system-ui, sans-serif; }
+  .cover.on { display: flex; }
+  /* a phone-shaped window onto a screenshot */
+  .shot { position: relative; overflow: hidden; border-radius: 28px; box-shadow: 0 24px 60px rgba(0,0,0,.28); flex: none; }
+  .shot img { position: absolute; }
+  .flat img { width: 100%; height: 100%; top: 0; left: 0; }
+  .label { position: absolute; bottom: -34px; left: 0; right: 0; text-align: center; font-size: 15px; letter-spacing: .12em; text-transform: uppercase; }
+  .wrap { position: relative; }
+  .sheet { border-radius: 10px; box-shadow: 0 24px 60px rgba(0,0,0,.22); flex: none; }
+
+  #sg { background: linear-gradient(135deg, #DCEAF1, #B9D4E2); }
+  #centred { background: linear-gradient(135deg, #EEE9F4, #D6CCE4); }
+  #vegan { background: linear-gradient(135deg, #E4EFDF, #C9DFC0); }
+  #vegan .label { color: #4F6A3E; }
+  #ac { background: linear-gradient(135deg, #F3EBDF, #E3D2BB); }
+  #nautic { background: radial-gradient(circle at 50% 40%, #12323A, #081114); }
+  #nautic .label { color: #8FB9C2; }
+</style></head>
+<body>
+
+<!-- SailGenius: drawing a route, findings, and the Why? screen for the tide -->
+<section class="cover" id="sg">
+  <div class="shot flat" style="width:232px;height:516px"><img src="../sailgenius/draw-route.png"></div>
+  <div class="shot flat" style="width:232px;height:516px"><img src="../sailgenius/findings.png"></div>
+  <div class="shot flat" style="width:232px;height:516px"><img src="../sailgenius/why-tide.png"></div>
+</section>
+
+<!-- Centred: the Home screen and the My People PDF -->
+<section class="cover" id="centred">
+  <div class="shot flat" style="width:232px;height:516px;background:#fff"><img src="../centred/home.png"></div>
+  <img class="sheet" src="../centred/pdf-my-people.png" style="width:640px">
+</section>
+
+<!-- Vegan Book: before and after -->
+<section class="cover" id="vegan">
+  <div class="wrap">
+    <div class="shot flat" style="width:232px;height:516px"><img src="../vegan-book/before-home.png"></div>
+    <div class="label">Before</div>
+  </div>
+  <div class="wrap">
+    <div class="shot" style="width:232px;height:516px;background:#F4F4F4"><img src="../vegan-book/after-home.png" style="width:232px;left:0;top:6px"></div>
+    <div class="label">After</div>
+  </div>
+</section>
+
+<!-- ArtisanCrafts: polished product page, desktop and mobile -->
+<section class="cover" id="ac">
+  <img class="sheet" src="../artisancrafts/hifi-product.png" style="width:700px">
+  <div class="shot flat" style="width:232px;height:543px"><img src="../artisancrafts/hifi-product-mobile.png"></div>
+</section>
+
+<script>
+  const id = location.hash.slice(1) || 'sg';
+  document.getElementById(id).classList.add('on');
+</script>
+</body></html>

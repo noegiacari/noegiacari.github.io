@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SailGenius · Noelia Giacari</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html" class="nav-logo">Noelia Giacari</a>
+    <div class="nav-links">
+      <a href="index.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="mailto:ngiacari@gmail.com">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="cs-hero">
+    <div class="cs-hero-text">
+      <span class="tag">Collaboration · UX/UI Design · Mobile · Not launched</span>
+      <h1>SailGenius</h1>
+      <p class="cs-subtitle">A sailing app that helps new skippers understand their own passage plans. A software engineer was building it and asked me to design the user experience and interface.</p>
+    </div>
+    <div class="cs-screens">
+      <img src="images/sailgenius/findings.png" alt="SailGenius findings for a passage from Dartmouth to Salcombe" />
+      <img src="images/sailgenius/why-tide.png" alt="SailGenius explaining the tide at Start Point" />
+      <img src="images/sailgenius/draw-route.png" alt="Drawing a route on the chart" />
+      <img src="images/sailgenius/your-boat.png" alt="Your boat: boat details including cruising speed and reef point" />
+    </div>
+  </header>
+
+  <!-- METADATA -->
+  <section class="cs-meta">
+    <div class="meta-item">
+      <span class="meta-label">Role</span>
+      <span class="meta-value">UX/UI Designer</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">Timeline</span>
+      <span class="meta-value">2025 to 2026</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">Team</span>
+      <span class="meta-value">Me (design), a software engineer (development)</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">Tools</span>
+      <span class="meta-value">Figma, HTML prototypes</span>
+    </div>
+  </section>
+
+  <main class="cs-content">
+
+    <!-- 01 SAILGENIUS: STARTING POINT -->
+    <section class="cs-section">
+      <div class="cs-section-label">
+        <span>01</span>
+        <h2>Where It Started</h2>
+      </div>
+      <div class="cs-section-body">
+
+        <div class="cs-block">
+          <h3>Too much on the chart</h3>
+          <p>
+            SailGenius is a sailing app built around a chart, with tides, weather and an AI
+            assistant. When I reviewed it in May 2026 it had grown a long list of features,
+            and the chart was crowded with buttons. I cut six features (a compass, a readings
+            panel, IoT devices, a custom cursor, a theme toggle and a map style switch),
+            reduced the side toolbar from seven buttons to five and moved the AI assistant to
+            the top of the menu.
+          </p>
+          <div class="cs-img-grid pair">
+            <figure>
+              <img src="images/sailgenius/before-map.png" alt="Earlier SailGenius build: a map of Europe with seven buttons down the side" />
+              <figcaption>The app before the review</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="cs-block">
+          <h3>Who it's for</h3>
+          <p>
+            In October 2026, the developer and I agreed who the app was really for: new
+            skippers. People with a sailing licence, a few seasons crewing or a
+            newly bought boat. They know the basics and can plan a passage the traditional way,
+            but they don't yet have the experience to know what to look out for.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 02 SAILGENIUS: A NEW DIRECTION -->
+    <section class="cs-section">
+      <div class="cs-section-label">
+        <span>02</span>
+        <h2>For Learning, Not Deciding</h2>
+      </div>
+      <div class="cs-section-body">
+
+        <div class="cs-block">
+          <h3>The skipper plans, SailGenius explains</h3>
+          <p>
+            The app used to suggest routes for the skipper to accept. I turned that around:
+            the skipper draws their own plan, and SailGenius points out what to look at, such as
+            the tide at a headland, gusts above their reef point, or the depth over a bar, and
+            explains why each one matters.
+          </p>
+          <p style="margin-top: 0.75rem;">
+            I also took out any verdict. There's no "looks good" and no "don't go". Whether
+            to go to sea is the skipper's call, and an app shouldn't make it for them. Every
+            screen ends with "Your plan, your decision", and a "Not checked" list says what
+            the app didn't look at.
+          </p>
+        </div>
+
+        <div class="cs-block">
+          <h3>Three ways to give it back</h3>
+          <p>
+            I sketched three options on the same sample passage, Dartmouth to Salcombe:
+            findings only, questions only, or both. Questions teach the most, but on the
+            morning of a passage they can feel like an exam. I chose findings, each with a
+            "Why?" that shows the numbers, how they were worked out and where to check them
+            yourself. Questions can come later as an option.
+          </p>
+          <img class="cs-img-full-real" src="images/sailgenius/sketches.png" alt="Sketches of three options: findings only, the Why? screens for tide, wind and depth, questions only, and findings with questions" />
+          <p class="img-caption">Sketches: option A with its three "Why?" screens, then options B and C</p>
+        </div>
+
+        <div class="cs-block">
+          <h3>"Why?" teaches the method</h3>
+          <p>
+            Each "Why?" screen has the finding, a simple chart, why it matters, how SailGenius
+            worked it out and "Check it yourself". The aim is that next time, the skipper can
+            do it without the app.
+          </p>
+          <div class="cs-img-grid pair">
+            <figure>
+              <img src="images/sailgenius/findings.png" alt="Findings: tide, wind and depth, each with a Why? button" />
+              <figcaption>Findings</figcaption>
+            </figure>
+            <figure>
+              <img src="images/sailgenius/why-tide.png" alt="Why? screen for the tide at Start Point with a bar chart" />
+              <figcaption>Why? Tide</figcaption>
+            </figure>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 03 SAILGENIUS: THE NEW FLOW -->
+    <section class="cs-section">
+      <div class="cs-section-label">
+        <span>03</span>
+        <h2>The New Flow</h2>
+      </div>
+      <div class="cs-section-body">
+
+        <div class="cs-block">
+          <h3>From first launch to the logbook</h3>
+          <p>
+            I designed the whole journey as a clickable prototype in Figma: 22 screens and 4
+            extra states. It starts with a welcome that asks the skipper to confirm they
+            understand what the app does and doesn't do, then their boat (including cruising
+            speed and when they reef), drawing a route that only accepts water, the findings,
+            and then the passage itself: under way, arriving and the log entry. Anchor Watch,
+            tides and a man overboard button sit alongside.
+          </p>
+          <div class="cs-screens">
+            <img src="images/sailgenius/welcome.png" alt="Welcome screen with an I understand button" />
+            <img src="images/sailgenius/your-boat.png" alt="Your boat: boat details including cruising speed and reef point" />
+            <img src="images/sailgenius/draw-route.png" alt="Drawing a route on the chart" />
+            <img src="images/sailgenius/under-way.png" alt="Under way screen during a passage" />
+          </div>
+          <p class="img-caption">Welcome, Your boat, Drawing a route, Under way</p>
+        </div>
+
+        <div class="cs-block">
+          <h3>Accessible on deck</h3>
+          <p>
+            I gave the app a calm, light theme and audited every screen: WCAG AA contrast,
+            at least 14px text and 48px tap targets. That found 108 contrast issues and 32 tap
+            targets that were too small, and I fixed all of them. The man overboard button is
+            larger still, at 64px, because it has to work first time.
+          </p>
+          <div class="cs-img-grid pair">
+            <figure>
+              <img src="images/sailgenius/mob-active.png" alt="Man overboard active screen" />
+              <figcaption>Man overboard</figcaption>
+            </figure>
+            <figure>
+              <img src="images/sailgenius/logbook.png" alt="Logbook with past passages" />
+              <figcaption>Logbook</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="cs-block">
+          <h3>Where it is now</h3>
+          <div class="results-grid">
+            <div class="result-item">
+              <span class="result-stat">6</span>
+              <span class="result-desc">Features cut to make room for the chart</span>
+            </div>
+            <div class="result-item">
+              <span class="result-stat">26</span>
+              <span class="result-desc">Screens and states in the new flow prototype</span>
+            </div>
+            <div class="result-item">
+              <span class="result-stat">140</span>
+              <span class="result-desc">Accessibility issues found and fixed</span>
+            </div>
+          </div>
+          <p>
+            I built the new flow in the app as well and handed it to the developer with a written
+            handover and a set of tasks. The project is now on hold. If it continued, next
+            would be interviews with six to eight new skippers, with the prototype in hand, and
+            a night mode for sailing after dark.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- CASE STUDY NAVIGATION -->
+  <nav class="cs-nav">
+    <a href="index.html" class="cs-nav-link">← Back to all work</a>
+    <a href="centred.html" class="cs-nav-link">First project →</a>
+  </nav>
+
+  <!-- CONTACT CTA -->
+  <section class="cta">
+    <h2>I'd love to hear from you.</h2>
+    <a href="mailto:ngiacari@gmail.com" class="btn">Get in touch</a>
+  </section>
+
+</body>
+</html>

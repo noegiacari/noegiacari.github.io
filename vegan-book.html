@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vegan Book · Noelia Giacari</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html" class="nav-logo">Noelia Giacari</a>
+    <div class="nav-links">
+      <a href="index.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="mailto:ngiacari@gmail.com">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="cs-hero">
+    <div class="cs-hero-text">
+      <span class="tag">Freelance · UI Redesign · Mobile</span>
+      <h1>Vegan Book</h1>
+      <p class="cs-subtitle">A visual revamp of a vegan recipe app. A client handed me a working app that was a plain list of recipe names and asked for a fresh look. I came back to it in 2026 to make it accessible and rebuild it as a proper design system.</p>
+    </div>
+    <div class="cs-screens">
+      <img src="images/vegan-book/after-home.png" alt="Redesigned home screen with search bar, filter chips and recipe cards with photos" />
+      <img src="images/vegan-book/after-recipe.png" alt="Redesigned recipe page for Chickpea Salad" />
+      <img src="images/vegan-book/after-add-recipe.png" alt="Redesigned Add Recipe screen" />
+      <img src="images/vegan-book/after-share.png" alt="Share card for Pumpkin Soup" />
+    </div>
+  </header>
+
+  <!-- METADATA -->
+  <section class="cs-meta">
+    <div class="meta-item">
+      <span class="meta-label">Role</span>
+      <span class="meta-value">UX/UI Designer</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">Timeline</span>
+      <span class="meta-value">2020 to 2023, revisited 2026</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">Tools</span>
+      <span class="meta-value">Figma</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">Platform</span>
+      <span class="meta-value">Mobile</span>
+    </div>
+  </section>
+
+  <main class="cs-content">
+
+    <!-- 01 THE BRIEF -->
+    <section class="cs-section">
+      <div class="cs-section-label">
+        <span>01</span>
+        <h2>The Brief</h2>
+      </div>
+      <div class="cs-section-body">
+
+        <div class="cs-block">
+          <h3>What I was handed</h3>
+          <p>
+            Vegan Book is a recipe keeper for plant-based cooking. The client already had a
+            working Android app and wanted it to look and feel better. The brief was a visual
+            revamp, not a research project: no user interviews or testing were in scope, so
+            every decision here comes from a close review of the existing app.
+          </p>
+          <div class="cs-screens">
+            <img src="images/vegan-book/before-home.png" alt="Original home screen: a list of recipe names on a cream background" />
+            <img src="images/vegan-book/before-recipe.png" alt="Original recipe, expanded inside the list" />
+            <img src="images/vegan-book/before-search.png" alt="Original search screen, empty apart from the keyboard" />
+            <img src="images/vegan-book/before-add-recipe.png" alt="Original Enter New Recipe pop-up with three text fields" />
+          </div>
+          <p class="img-caption">The app as I received it: Home, a recipe, Search and Add Recipe</p>
+        </div>
+
+        <div class="cs-block">
+          <h3>What I noticed</h3>
+          <ul>
+            <li><strong>Nothing to choose from.</strong> Home was an alphabetical list of names with no photos, cooking times or categories. Tall rows meant only about ten recipes per screen.</li>
+            <li><strong>No recipe page.</strong> Recipes opened inside the list, pushing everything else down. Ingredients were in regular weight while every step of the method was bold, so nothing stood out.</li>
+            <li><strong>A blank search.</strong> Search opened onto an empty screen with no suggestions or categories, and its blue underline didn't match the green brand.</li>
+            <li><strong>Adding a recipe felt like a form.</strong> A pop-up with three free-text boxes: ingredients and method each went into one box, with no photo, time or servings. The Cancel button was a stronger colour than Add Recipe.</li>
+            <li><strong>No way to share.</strong> There was nothing to help people pass a recipe on.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 02 THE REDESIGN -->
+    <section class="cs-section">
+      <div class="cs-section-label">
+        <span>02</span>
+        <h2>The Redesign</h2>
+      </div>
+      <div class="cs-section-body">
+
+        <div class="cs-block">
+          <h3>Wireframes</h3>
+          <p>
+            I started by blocking out the structure. Home became a browsable feed with search and
+            category filters at the top, and each recipe got its own page with the key facts
+            (time, servings, difficulty) above the ingredients.
+          </p>
+          <div class="cs-img-grid pair">
+            <img src="images/vegan-book/wireframe-home.png" alt="Home wireframe" />
+            <img src="images/vegan-book/wireframe-recipe.png" alt="Recipe page wireframe" />
+          </div>
+          <p class="img-caption">Wireframes for Home and the recipe page</p>
+        </div>
+
+        <div class="cs-block">
+          <h3>Home: from a list of names to a menu</h3>
+          <p>
+            Each recipe became a card with a photo, cooking time and difficulty, so people can
+            choose by what looks good and how much time they have. Search moved onto Home, and
+            filter chips (Salads, Mains, Soups) replaced scrolling through the alphabet.
+          </p>
+          <div class="cs-img-grid pair">
+            <figure>
+              <img src="images/vegan-book/before-home.png" alt="Original home screen" />
+              <figcaption>Before</figcaption>
+            </figure>
+            <figure>
+              <img src="images/vegan-book/after-home.png" alt="Redesigned home screen" />
+              <figcaption>After</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="cs-block">
+          <h3>A proper recipe page</h3>
+          <p>
+            Recipes now open on their own screen with a large photo, then time, servings and
+            difficulty in one row. Ingredients are a short bulleted list and the method is in
+            regular weight, so headings do the work of guiding the eye. Share buttons sit at the
+            bottom, where you finish reading.
+          </p>
+          <div class="cs-img-grid pair">
+            <figure>
+              <img src="images/vegan-book/before-recipe.png" alt="Original recipe view" />
+              <figcaption>Before</figcaption>
+            </figure>
+            <figure>
+              <img src="images/vegan-book/after-recipe.png" alt="Redesigned recipe page" />
+              <figcaption>After</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="cs-block">
+          <h3>Adding a recipe</h3>
+          <p>
+            The pop-up became a full screen. A photo is optional, with Camera and Gallery
+            buttons and a friendly prompt ("Show off your dish"). Ingredients and instructions
+            have their own fields, and prep time, servings and difficulty are added here so every
+            recipe card has the same information. A single Save Recipe button replaces the
+            competing Cancel and Add buttons.
+          </p>
+          <div class="cs-img-grid pair">
+            <figure>
+              <img src="images/vegan-book/before-add-recipe.png" alt="Original Add Recipe pop-up" />
+              <figcaption>Before</figcaption>
+            </figure>
+            <figure>
+              <img src="images/vegan-book/after-add-recipe.png" alt="Redesigned Add Recipe screen" />
+              <figcaption>After</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="cs-block">
+          <h3>New: the share card</h3>
+          <p>
+            Sharing food is a big part of plant-based cooking, so I designed a share card: the
+            photo, the name, time, servings, difficulty and tags, a short description and the
+            Vegan Book logo, ready to post to Instagram, Facebook or WhatsApp. It became the
+            most distinctive part of the app.
+          </p>
+          <div class="cs-img-grid pair">
+            <img src="images/vegan-book/after-share.png" alt="Share card for Pumpkin Soup with Instagram, Facebook and WhatsApp buttons" />
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 03 REVISITED IN 2026 -->
+    <section class="cs-section">
+      <div class="cs-section-label">
+        <span>03</span>
+        <h2>Revisited in 2026</h2>
+      </div>
+      <div class="cs-section-body">
+
+        <div class="cs-block">
+          <h3>Why I came back to it</h3>
+          <p>
+            Looking at the redesign a few years later, the look still held up, but several
+            colours didn't meet accessibility standards and the screens were drawn by hand
+            rather than built from components. I went back to fix both.
+          </p>
+        </div>
+
+        <div class="cs-block">
+          <h3>Accessibility audit</h3>
+          <p>
+            I checked every screen against WCAG 2.2 AA and measured the contrast ratios from
+            the file's colours. Six elements failed on contrast, and the recipe cards had a tap
+            area smaller than the iOS and Android guidelines ask for. Every colour fix uses a
+            colour that was already in the palette, so the look stayed the same and became
+            easier to read.
+          </p>
+          <ul>
+            <li>White text on green buttons: 2.5:1 to 6.1:1</li>
+            <li>Selected filter chip: 1.8:1 to 11.5:1, plus a border so the selected state no longer relies on colour alone</li>
+            <li>Add Recipe input fields: 1.2:1 to 3.8:1</li>
+            <li>Search bar: 1.3:1 to 3.5:1</li>
+            <li>Unselected filter chips: 1.2:1 to 3.5:1</li>
+            <li>"Vegan" in the share card logo: 2.1:1 to 5.2:1</li>
+            <li>Recipe cards: only a 40 × 40 arrow opened a recipe. Now the whole card does.</li>
+          </ul>
+          <img class="cs-img-full-real" src="images/vegan-book/accessibility-audit.png" alt="Accessibility audit table showing each element before and after with its contrast ratio" />
+          <p class="img-caption">The audit page in Figma: each element before and after, with its ratio</p>
+        </div>
+
+        <div class="cs-block">
+          <h3>Components and a style guide</h3>
+          <p>
+            I rebuilt the screens from components: a recipe card with name, time and
+            difficulty properties, a filter chip with default and selected states, and a
+            difficulty badge in three levels. Home is now made from instances, aligned on a
+            consistent grid with 16px gaps. I also set up text styles (Title, Heading, Body,
+            Caption) and documented the colours, type and components in a style guide, so the
+            app could be handed to a developer and stay consistent.
+          </p>
+          <img class="cs-img-full-real" src="images/vegan-book/style-guide.png" alt="Vegan Book style guide with pistachio, neutral and mango colour swatches, type scale and components" />
+          <p class="img-caption">Style guide: colour, typography and components</p>
+        </div>
+
+        <div class="cs-block">
+          <h3>Outcome</h3>
+          <div class="results-grid">
+            <div class="result-item">
+              <span class="result-stat">4</span>
+              <span class="result-desc">Core screens redesigned: Home, Recipe, Add Recipe and Share</span>
+            </div>
+            <div class="result-item">
+              <span class="result-stat">7 / 7</span>
+              <span class="result-desc">Accessibility issues fixed: six contrast failures and one tap target</span>
+            </div>
+            <div class="result-item">
+              <span class="result-stat">1</span>
+              <span class="result-desc">New feature: the shareable recipe card</span>
+            </div>
+          </div>
+          <p>
+            If I took it further, the next step would be testing it with people who cook from
+            recipe apps every week, since that wasn't part of the original brief. I'd also
+            separate prep time from total time (a cheesecake that sets in the freezer for four
+            hours isn't really a 55 minute recipe) and design the empty and error states.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- CASE STUDY NAVIGATION -->
+  <nav class="cs-nav">
+    <a href="index.html" class="cs-nav-link">← Back to all work</a>
+    <a href="sailgenius.html" class="cs-nav-link">Next project →</a>
+  </nav>
+
+  <!-- CONTACT CTA -->
+  <section class="cta">
+    <h2>I'd love to hear from you.</h2>
+    <a href="mailto:ngiacari@gmail.com" class="btn">Get in touch</a>
+  </section>
+
+</body>
+</html>

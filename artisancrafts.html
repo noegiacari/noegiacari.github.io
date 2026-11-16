@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ArtisanCrafts · Noelia Giacari</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html" class="nav-logo">Noelia Giacari</a>
+    <div class="nav-links">
+      <a href="index.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="mailto:ngiacari@gmail.com">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="cs-hero">
+    <div class="cs-hero-text">
+      <span class="tag">IBM UX Capstone · Concept · Web</span>
+      <h1>ArtisanCrafts</h1>
+      <p class="cs-subtitle">An online shop for handmade goods that tells the story behind every piece. This was the capstone project of my IBM UI/UX Designer certificate: I took it from a client brief to a tested, developer-ready design.</p>
+    </div>
+    <img class="cs-img-full-real" src="images/covers/artisancrafts.png" alt="ArtisanCrafts product page for a handmade terracotta mug, on desktop and mobile" />
+  </header>
+
+  <!-- METADATA -->
+  <section class="cs-meta">
+    <div class="meta-item">
+      <span class="meta-label">Role</span>
+      <span class="meta-value">UX/UI Designer (solo project)</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">Timeline</span>
+      <span class="meta-value">2026</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">Tools</span>
+      <span class="meta-value">Figma</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">Platform</span>
+      <span class="meta-value">Responsive web, desktop and mobile</span>
+    </div>
+  </section>
+
+  <main class="cs-content">
+
+    <!-- 01 THE BRIEF -->
+    <section class="cs-section">
+      <div class="cs-section-label">
+        <span>01</span>
+        <h2>The Brief</h2>
+      </div>
+      <div class="cs-section-body">
+
+        <div class="cs-block">
+          <h3>From pop-up markets to online</h3>
+          <p>
+            ArtisanCrafts sells handmade goods at seasonal pop-up markets and on social media.
+            The founder wanted an online shop that could reach customers across the country
+            without losing what makes the products special: the people who make them.
+          </p>
+        </div>
+
+        <div class="cs-block">
+          <h3>What the shop had to do</h3>
+          <ul>
+            <li>Tell the stories behind the artisans and how they work</li>
+            <li>Present the products well enough to justify a premium price</li>
+            <li>Earn the trust of buyers who care where things come from</li>
+            <li>Make browsing and checking out easy on both desktop and mobile</li>
+          </ul>
+        </div>
+
+        <div class="cs-block">
+          <h3>The constraints</h3>
+          <p>
+            Only four screens, each designed for desktop and mobile. ArtisanCrafts has no
+            developers of its own, so the handoff had to be clear enough for an outside team to
+            build without asking questions. And the design had to be accessible and able to grow
+            beyond those four screens.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 02 RESEARCH -->
+    <section class="cs-section">
+      <div class="cs-section-label">
+        <span>02</span>
+        <h2>Research</h2>
+      </div>
+      <div class="cs-section-body">
+
+        <div class="cs-callout">
+          <strong>A note on the research.</strong> This was a course project, so the research
+          was simulated: the user interview was a role-play where the course provided the
+          participant's answers, and I ran the usability tests myself as the persona. I still
+          worked through every step as I would with real people, and at the end I explain what
+          I'd do differently with real users.
+        </div>
+
+        <div class="cs-block">
+          <h3>Meeting Olivia</h3>
+          <p>
+            From the interview I built a persona: Olivia, 34, a "conscious gifter". She buys
+            handmade gifts a few times a month, mostly on her phone, and wants every gift to feel
+            personal. She does her homework before buying, and a shop has to earn her trust.
+          </p>
+          <div class="cs-persona">
+            <div>
+              <h4>What she wants</h4>
+              <ul>
+                <li>Unique gifts that feel meaningful</li>
+                <li>To know an item is really handmade and ethically made</li>
+                <li>A quick checkout with no surprises</li>
+              </ul>
+            </div>
+            <div>
+              <h4>What puts her off</h4>
+              <ul>
+                <li>Not being able to judge quality from photos</li>
+                <li>Missing details like materials and size</li>
+                <li>Shipping costs that appear only at the end</li>
+                <li>Being forced to create an account</li>
+              </ul>
+            </div>
+          </div>
+          <p class="cs-quote">"Hidden shipping costs that pop up at the very end are a major reason I abandon a cart."</p>
+        </div>
+
+        <div class="cs-block">
+          <h3>What others do</h3>
+          <p>
+            I compared Etsy, UncommonGoods and Pinterest's shopping features. Etsy has huge choice,
+            but listings look alike and it's hard to tell real handmade from mass-produced.
+            UncommonGoods curates beautifully for gift buyers. Pinterest is where people find
+            inspiration, but they buy somewhere else. The gap for ArtisanCrafts: a small, curated
+            shop where the maker's story sits right next to the product.
+          </p>
+        </div>
+
+        <div class="cs-block">
+          <h3>Three questions to answer</h3>
+          <ul>
+            <li>How might we help Olivia feel confident that an item is genuinely handmade?</li>
+            <li>How might we show her the full cost up front, without forcing her to sign up?</li>
+            <li>How might we connect her with the maker, so the gift feels worth a premium price?</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 03 STRUCTURE -->
+    <section class="cs-section">
+      <div class="cs-section-label">
+        <span>03</span>
+        <h2>Structure</h2>
+      </div>
+      <div class="cs-section-body">
+
+        <div class="cs-block">
+          <h3>Deciding what comes first</h3>
+          <p>
+            With only four screens, I used a prioritisation matrix to sort features by value and
+            effort. The quick wins went in first: a box of key details next to the price, a
+            "Meet the Artisan" link on every product, guest checkout and the full cost early on.
+            Reviews with photos and a gift guide were valuable but bigger pieces of work, so I
+            saved them for later. I left out a wish list on purpose: it needs accounts, which
+            clashed with the guest checkout Olivia wanted.
+          </p>
+        </div>
+
+        <div class="cs-block">
+          <h3>Four screens, one journey</h3>
+          <p>
+            Home, Product, Artisan profile and Checkout. The key moment in the flow is the
+            product page, where Olivia decides whether she trusts the item enough to buy it.
+          </p>
+          <img class="cs-img-full-real" src="images/artisancrafts/user-flow.png" alt="User flow: home, browse or search, product page, a trust decision, add to cart, guest checkout, review order and confirm" />
+          <p class="img-caption">User flow, with the trust decision on the product page</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 04 DESIGN -->
+    <section class="cs-section">
+      <div class="cs-section-label">
+        <span>04</span>
+        <h2>Design</h2>
+      </div>
+      <div class="cs-section-body">
+
+        <div class="cs-block">
+          <h3>Wireframes, desktop and mobile</h3>
+          <p>
+            I sketched first, then built wireframes for all four screens in both sizes. On
+            mobile, the menu folds into a hamburger and the filters become a row of chips you
+            can scroll sideways.
+          </p>
+          <img class="cs-img-full-real" src="images/artisancrafts/wireframe-home-desktop-mobile.png" alt="Home page wireframes for desktop and mobile" />
+        </div>
+
+        <div class="cs-block">
+          <h3>Key decisions</h3>
+          <ul>
+            <li><strong>Details next to the price.</strong> Materials, size, what's included and delivery cost, so Olivia doesn't have to hunt for them.</li>
+            <li><strong>The maker on every product.</strong> A "Meet the Artisan" section with a photo and a link to their profile.</li>
+            <li><strong>Guest checkout.</strong> No account needed for a first purchase.</li>
+            <li><strong>No surprises.</strong> Delivery and VAT are shown in the order summary before she confirms.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 05 TESTING -->
+    <section class="cs-section">
+      <div class="cs-section-label">
+        <span>05</span>
+        <h2>Testing and Iteration</h2>
+      </div>
+      <div class="cs-section-body">
+
+        <div class="cs-block">
+          <h3>Testing the prototype</h3>
+          <p>
+            I linked the wireframes into a clickable prototype and ran two simulated sessions,
+            walking through it as Olivia and as a less experienced gift buyer. There were three
+            tasks: find a product with a filter, check its details and the artisan, then buy it
+            as a guest.
+          </p>
+          <div class="results-grid">
+            <div class="result-item">
+              <span class="result-stat">3/3</span>
+              <span class="result-desc">Tasks completed in both sessions</span>
+            </div>
+            <div class="result-item">
+              <span class="result-stat">2</span>
+              <span class="result-desc">Major issues found and fixed</span>
+            </div>
+            <div class="result-item">
+              <span class="result-stat">1</span>
+              <span class="result-desc">Minor issue, fixed later</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cs-block">
+          <h3>Filters that were easy to miss</h3>
+          <p>
+            The tall banner pushed the filters down, and one participant scrolled past them.
+            I made the banner shorter so the search bar and filters sit in the first view.
+          </p>
+          <div class="cs-img-grid wide">
+            <figure>
+              <img src="images/artisancrafts/wireframe-home-before.png" alt="Home wireframe before: a tall banner with the filters lower down" />
+              <figcaption>Before</figcaption>
+            </figure>
+            <figure>
+              <img src="images/artisancrafts/wireframe-home-after.png" alt="Home wireframe after: a shorter banner with the search and filters higher up" />
+              <figcaption>After</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="cs-block">
+          <h3>An artisan link nobody noticed</h3>
+          <p>
+            One participant only found the artisan's profile when asked. That matters, because
+            the maker's story is the whole point of the shop. I added "See how it's made" above
+            the section and made the profile link bold.
+          </p>
+          <div class="cs-img-grid wide">
+            <figure>
+              <img src="images/artisancrafts/wireframe-product-before.png" alt="Product wireframe before: a small artisan teaser" />
+              <figcaption>Before</figcaption>
+            </figure>
+            <figure>
+              <img src="images/artisancrafts/wireframe-product-after.png" alt="Product wireframe after: See how it's made heading above the artisan teaser, with a bold profile link" />
+              <figcaption>After</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="cs-block">
+          <h3>Rating what to fix first</h3>
+          <p>
+            I rated each issue from 0 to 4 for severity. Both issues above were a 3: they didn't
+            stop anyone, but they sat on the two journeys the business depends on, finding
+            products and trusting the maker. A third, smaller issue was an optional Notes field
+            at checkout that looked required. I rated it a 1 and left it for later.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 06 THE FINAL DESIGN -->
+    <section class="cs-section">
+      <div class="cs-section-label">
+        <span>06</span>
+        <h2>The Final Design</h2>
+      </div>
+      <div class="cs-section-body">
+
+        <div class="cs-block">
+          <h3>Warm, crafted and calm</h3>
+          <p>
+            I built a style guide and component library first: a clay brown, warm beige and
+            sage green palette, Merriweather for headings and Roboto for text, and reusable
+            buttons, inputs, product cards and badges. Every screen is built from those pieces. The product and artisan photos are AI-generated.
+          </p>
+          <img class="cs-img-full-real" src="images/artisancrafts/hifi-home.png" alt="Home page with a studio photo banner, search, filters and five handmade products" />
+          <p class="img-caption">Home</p>
+        </div>
+
+        <div class="cs-block">
+          <img class="cs-img-full-real" src="images/artisancrafts/hifi-product.png" alt="Product page for a terracotta mug with process photos, key details, Add to Cart and Meet the Artisan" />
+          <p class="img-caption">Product: details next to the price, the making process, and the maker one click away</p>
+        </div>
+
+        <div class="cs-block">
+          <div class="cs-img-grid wide">
+            <figure>
+              <img src="images/artisancrafts/hifi-artisan.png" alt="Artisan profile for Nate Shaw, a potter in Bristol, with his story, values and products" />
+              <figcaption>Artisan profile</figcaption>
+            </figure>
+            <figure>
+              <img src="images/artisancrafts/hifi-checkout.png" alt="Checkout with guest checkout, delivery details and a full order summary" />
+              <figcaption>Checkout: guest checkout and the full cost before confirming</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="cs-block">
+          <div class="cs-screens three">
+            <img src="images/artisancrafts/hifi-product-mobile.png" alt="Mobile product page with the mug photo, key details, Add to Cart and Meet the Artisan" />
+          </div>
+          <p class="img-caption">The product page on mobile</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 07 HANDOFF AND LEARNINGS -->
+    <section class="cs-section">
+      <div class="cs-section-label">
+        <span>07</span>
+        <h2>Handoff and What I Learnt</h2>
+      </div>
+      <div class="cs-section-body">
+
+        <div class="cs-block">
+          <h3>Ready for developers</h3>
+          <p>
+            With no in-house team, the Figma file had to speak for itself. I named every screen
+            consistently (Screen/Product/Desktop and so on), documented the colours, type,
+            spacing and components in the style guide, annotated the key interactions, and added
+            a one-page developer overview of the goals, layout and navigation.
+          </p>
+        </div>
+
+        <div class="cs-block">
+          <h3>What I'd do with real users</h3>
+          <p>
+            I'd interview five or six real buyers, ideally customers from the pop-up markets,
+            and test the prototype with them in person. Once live, I'd watch two numbers most
+            closely: how many people add to cart from the product page, and where people drop
+            out of checkout. Those map directly to Olivia's biggest worries.
+          </p>
+        </div>
+
+        <div class="cs-block">
+          <h3>What I learnt</h3>
+          <p>
+            Understanding the problem and the users is the most important thing when designing a
+            product for people to use, enjoy and make their lives easier. Every decision in
+            ArtisanCrafts, from the details next to the price to guest checkout, came straight
+            from what Olivia needed.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- CASE STUDY NAVIGATION -->
+  <nav class="cs-nav">
+    <a href="index.html" class="cs-nav-link">← Back to all work</a>
+    <a href="vegan-book.html" class="cs-nav-link">Next project →</a>
+  </nav>
+
+  <!-- CONTACT CTA -->
+  <section class="cta">
+    <h2>I'd love to hear from you.</h2>
+    <a href="mailto:ngiacari@gmail.com" class="btn">Get in touch</a>
+  </section>
+
+</body>
+</html>
