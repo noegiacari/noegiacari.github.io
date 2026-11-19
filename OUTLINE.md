@@ -76,7 +76,7 @@ Four projects, each showing a different thing I did (decided 12 November 2026):
 
 ## Step 2 done (12 November 2026): intro
 - Headline: "Hi, I'm Noe, a UX/UI designer." Full name Noelia Giacari stays top-left on every page
-- Text: "I care about accessibility and person-centred design, creating experiences that work for people of all abilities. I'm looking for a role, paid or voluntary, where I can keep learning as part of a team." ("junior" taken out 12 November 2026)
+- Text: "I care about accessibility and person-centred design, creating experiences that work for people of all abilities. I'm looking for a role where I can keep learning as part of a team." ("junior" taken out 12 November 2026)
 - UX/UI designer, not product designer, everywhere. "Apps" left out on purpose, to keep it open
 
 ## Next steps
