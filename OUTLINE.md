@@ -88,4 +88,5 @@ Once every page has a full draft, Noe reads it all and corrects dates and other 
 
 ## Still to decide
 - ~~About page~~ done 12 November 2026: bio from Noe's brain dump, cropped photo (`images/about/noe.jpg`, original `~/Pictures/Prof2.jpg`), email ngiacari@gmail.com on every page. No LinkedIn, no CV, no hobbies (sailing left out on purpose), no separate tools list (skills sentence in the bio instead).
+- About page: community paragraph added 19 November 2026 (volunteering with a Venezuelan psychologist who uses Noe's wellbeing templates with community and outreach groups in Venezuela). Her name stays private; no F7, Etsy or "in Spanish".
 - ~~Bottom button wording~~ done: "I'd love to hear from you." with a "Get in touch" button.
